@@ -1,14 +1,12 @@
 
+
 name: Reusable Workflow
 
 on:
-  Workflow_call:
-
+  workflow_call:
 jobs:
-  ru1-job1:
-
+  rul-jpb1:
     runs-on: ubuntu-latest
-
     steps:
       - name: "Pruebas de mensaje de reutilización"
         run: |
