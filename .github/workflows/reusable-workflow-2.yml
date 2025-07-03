@@ -1,1 +1,11 @@
+name: Reusable Workflow
 
+on:
+  workflow_call:
+jobs:
+  rul-jpb1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Pruebas de mensaje de reutilización"
+        run: |
+          echo "Estoy reutilizando Workflow 1, using main"
